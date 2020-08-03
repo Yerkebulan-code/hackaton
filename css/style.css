@@ -80,7 +80,7 @@ header #menuHead div:hover{
 }
 header #regAuth{
 	width: 30%;
-	margin-left: 68%;
+	margin-left: 60%;
 	text-align: right;
 	font-size: 1.3em;
 }
@@ -88,19 +88,19 @@ header #regAuth{
 /* документ ушин стильдер*/
 
 #wrapper{
-	width: 96%;
-	margin-left: 5%;
+	width: 97%;
+	margin-left: 3%;
 	float: left;
 }
 
 /* сол колонкалар ушин стильдер*/
 #wrapper #leftCol{
-	width: 80%;
+	width: 99%;
 	margin-left: 1px;
 	float: left;
 }
 #wrapper #leftCol #bigArticle{
-	width: 78%;
+	width: 90%;
 	margin-left: 10%;
 	background-color: #f6f6f6;
 	padding: 1%;
@@ -150,9 +150,9 @@ header #regAuth{
 	text-align: center;
 	margin-top: 10px;
 }
-#wrapper #leftCol .column {
+#wrapper #leftCol .row .column {
   float: left;
-  width: 32.5%;
+  width: 33.3%;
   color: bold;
   font-weight: bold;
   font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
@@ -224,20 +224,21 @@ header #regAuth{
 
 /* он колонкалар ушин стильдер*/
 #wrapper #rightCol{
-	width: 15%;
-	float: left;
+	height: 15%;
+	width:96%;
+	float: bottom;
 }
 #wrapper #rightCol .banner{
-	width: 100%;
+	width: 32%;
 	float: left;
+	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 10%;
+	margin-left: 10px;
+	size: 50px;
 }
-#wrapper #rightCol .banner3{
-	width: 100%;
-	float: left;
-	margin-bottom: 20px;
-	margin-left: 20%;
+#wrapper #rightCol img{
+	width: 160px;
+	height: 160px;
 }
 /* Footer - ге стильдер */
 
